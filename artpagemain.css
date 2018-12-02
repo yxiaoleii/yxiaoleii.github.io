@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+hmtl {
+  font-size: 62.5%; }
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: 55%; } }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    font-size: 58%; } }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 60%; } }
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 62.5%; } }
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 62.5%; } }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  font-size: 1.8rem;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+section.white {
+  background-color: white;
+  color: black; }
+
+section.padded {
+  padding-top: 8rem;
+  padding-bottom: 8rem; }
+
+section.container {
+  align-items: right;
+  max-width: 90%;
+  margin: 0 auto; }
+  @media (max-width: 600px) {
+    section.container {
+      max-width: 0%; } }
+
+section.navbar {
+  padding: 2rem 0rem;
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  height: 9rem;
+  overflow-x: visible;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 4rem; }
+  @media (max-width: 600px) {
+    section.navbar {
+      font-size: 1.3rem;
+      width: auto; } }
+  section.navbar .lines {
+    margin-left: 10rem; }
+  section.navbar .row {
+    display: flex;
+    justify-content: space-between; }
+  section.navbar .logo {
+    font-size: 6rem; }
+    @media (max-width: 600px) {
+      section.navbar .logo {
+        font-size: 3rem; } }
+  section.navbar .menu {
+    padding-top: 2rem; }
+  section.navbar a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none; }
+  section.navbar .links a {
+    margin-left: 10rem;
+    opacity: .6;
+    text-align: right; }
+    section.navbar .links a:hover {
+      color: red; }
+
+section.portfolio {
+  /* Create four equal columns that sits next to each other */ }
+  section.portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px; }
+  section.portfolio .column {
+    flex: 50%;
+    max-width: 50%;
+    padding: 10rem .4rem;
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */ }
+    section.portfolio .column img {
+      margin-top: .8rem;
+      vertical-align: middle;
+      max-width: 90%; }
+      section.portfolio .column img:hover {
+        color: red; }
+    @media screen and (max-width: 800px) {
+      section.portfolio .column .column {
+        flex: 50%;
+        max-width: 50%; } }
+    @media screen and (max-width: 600px) {
+      section.portfolio .column .column {
+        flex: 100%;
+        max-width: 100%; } }
